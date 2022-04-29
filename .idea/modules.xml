@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tabletoprobot.iml" filepath="$PROJECT_DIR$/tabletoprobot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabeltopdroid.iml" filepath="$PROJECT_DIR$/tabeltopdroid.iml" />
     </modules>
   </component>
 </project>
