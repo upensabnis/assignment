@@ -14,6 +14,7 @@ Allowed Commands
 * ``RIGHT`` - RIGHT will rotate the robot 90 degrees RIGHT without changing the position of the robot.
 * ``MOVE`` - MOVE will move the toy robot one unit forward in the direction it is currently facing.
 * ``REPORT`` - REPORT will announce the X,Y and F of the robot.
+* ``QUIT`` - Only works in case of reading inputs from user. QUIT will stop prompting for user input and will exit the application.
 
 Constraints
 ------------
@@ -47,7 +48,7 @@ How To Run
 Application provides 2 classes ``ReadInputFromFile`` and ``ReadInputFromUser`` under ``src/test/java/com/homes/tabletoprobot``.
 
 1. ``ReadInputFromFile`` reads input from file located under ``src/test/java/resources/input.txt``. Edit ``input.txt`` as required. Run the corresponding main method to see output.
-2. ``ReadInputFromUser`` is interactive way of communicating. Run the corresponding main method and input commands as per wish.
+2. ``ReadInputFromUser`` is interactive way of communicating. Run the corresponding main method and input commands as per wish. Use command ``QUIT`` to exit the application.
 
 Configurations
 ---------------
